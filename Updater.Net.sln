@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater.Net", "Updater.Net\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater.Net.Console", "Updater.Net.Console\Updater.Net.Console.csproj", "{3AE84796-59EF-4C42-AE6C-7519156ACC4B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2F1AC76-0B12-4084-83DC-5FA25705DB4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{E56453D2-6C2F-403A-9A30-FF06722F8745}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41674216-F15A-4FE5-913E-389B87F8BFC3} = {F2F1AC76-0B12-4084-83DC-5FA25705DB4C}
+		{3AE84796-59EF-4C42-AE6C-7519156ACC4B} = {F2F1AC76-0B12-4084-83DC-5FA25705DB4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3D67F6F3-450F-4B0B-8FCE-E1E63CE72D39}
